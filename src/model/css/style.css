@@ -1,0 +1,40 @@
+:root{
+  --primaria:#C80F39;
+  --secundaria:#190207;
+  --tercearia:#190207;
+}
+
+.lds-roller div:after
+{
+  background: var(--primaria);
+}
+
+form .form-group .error
+{
+    font-size: .8rem;
+    color: #f44336;
+}
+
+div .tudo
+{
+    position: fixed;
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    opacity: 0.8;
+    background-color: black;
+    top: 0;
+}
+
+.lds-roller
+{
+    display: flex;
+    place-items: center;
+}
+
+tr .tr-horario:hover
+{
+  background: #cce;
+}
